@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.Shortyburger</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="./imagenes/WhatsApp Image 2024-07-20 at 11.37.21 AM.jpeg" alt="Logo de la Hamburguesería" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#photos">Fotos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#location">Ubicación</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <h1>Bienvenido a la <span>Hamburguesas D Shorty</span></h1>
+            <p>Las mejores hamburguesas de la ciudad, preparadas con ingredientes frescos y de calidad.</p>
+            <a href="#about" class="btn">Conócenos</a>
+            <div class="promo">
+                <h2>Promociones</h2>
+                <p>Descubre nuestras ofertas y promociones exclusivas.</p>
+                <a href="#promotions" class="btn">Ver Promociones</a>
+            </div>
+            <video controls>
+                <source src="./imagenes/Download.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una hamburguesería dedicada a ofrecer la mejor experiencia gastronómica con un toque gourmet. Nuestro objetivo es combinar sabores tradicionales con innovaciones culinarias para crear hamburguesas únicas y deliciosas.</p>
+            <p>Nuestros chefs son expertos en la creación de hamburguesas artesanales y utilizamos solo los ingredientes más frescos y de la más alta calidad.</p>
+        </div>
+    </section>
+
+    <section id="catalog">
+        <div class="container">
+            <h2>Nuestro Catálogo</h2>
+            <div class="catalog-grid">
+                <div class="single-catalog-item">
+                    <img src="./imagenes/WhatsApp Image 2024-07-20 at 11.37.38 AM.jpeg" alt="Hamburguesa Especial 1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="photos">
+        <div class="container">
+            <h2>Nuestras Hamburguesas</h2>
+            <div class="photo-gallery">
+                <img src="./imagenes/WhatsApp Image 2024-07-20 at 11.38.55 AM.jpeg" alt="Hamburguesa 1">
+                <img src="./imagenes/WhatsApp Image 2024-07-20 at 11.38.54 AM.jpeg" alt="Hamburguesa 2">
+                <img src="./imagenes/WhatsApp Image 2024-07-20 at 11.37.48 AM.jpeg" alt="Hamburguesa 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="promotions">
+        <div class="container">
+            <h2>Promociones</h2>
+            <p>¡Aprovecha nuestras ofertas y promociones exclusivas! Visita nuestra hamburguesería y disfruta de descuentos especiales en nuestras hamburguesas gourmet.</p>
+            <video controls>
+                <source src="./imagenes/WhatsApp Video 2024-07-20 at 5.14.37 PM.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+    </section>
+
+    <section id="location">
+        <div class="container">
+            <h2>Ubicación</h2>
+            <img src="./imagenes/Ubicacion.png" type="Ubicacion">
+            <div id=" map ">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact ">
+        <div class="container ">
+            <h2>Contacto</h2>
+            <form action="submit_form.php " method="post ">
+                <label for="name ">Nombre:</label>
+                <input type="text " id="name " name="name " required>
+
+                <label for="phone ">Celular:</label>
+                <input type="tel " id="phone " name="phone " required>
+
+                <label for="email ">Correo:</label>
+                <input type="email " id="email " name="email " required>
+
+                <label for="flavor ">¿Qué sabor le gustaría de novedad?</label>
+                <input type="text " id="flavor " name="flavor " required>
+
+                <button type="submit ">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container ">
+            <p>Ubicación:Villa El Salvador Sector III Grupo 27</p>
+            <p>Teléfono: +992458798 | Correo: contacto@HamburguesaDShorty.com</p>
+            <div class="social ">
+                <a href="https://www.facebook.com/Distrib.Bustamante/about_profile_transparency" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.tiktok.com/@shortyburger" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
