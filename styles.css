@@ -77,13 +77,14 @@ section p {
     font-size: 1.1em;
 }
 
+/* CSS */
 .intro {
-    background: url('./imagenes/background.jpg') no-repeat center center/cover;
+    background: url('./imagenes/WhatsApp\ Image\ 2024-07-20\ at\ 11.37.21\ AM.jpeg') no-repeat center center/cover;
     color: #fff;
     padding: 100px 20px;
     text-align: center;
     background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente para oscurecer la imagen */
 }
 
 .intro h1 {
@@ -120,6 +121,7 @@ section p {
     border-radius: 10px;
     margin-top: 20px;
 }
+
 
 .single-catalog-item img {
     width: 100%;
